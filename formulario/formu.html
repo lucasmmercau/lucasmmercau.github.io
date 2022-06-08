@@ -1,39 +1,35 @@
 <html lang="es">
+
 <head>
-    <link rel="stylesheet" href="/formulario/formulario.css">
+    <link rel="stylesheet" href="./formulario.css">
     <title> formulario </title>
 </head>
-<header>
-    <nav>
-        <div class=into>
-            <div class="intro">
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="">Tipos de Cubos</a></li>
-                <li><a href="/paginas/videos.html">Videos</a></li>
-                <li><a href="/formulario/formu.html">contacto</a></li>
-            </div>
-        </div> 
-    </nav>
-      
-</header>
+
 <body>
-    <section class="form">
-        <input class="control" type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
-        <input class="control" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
-        <input class="control"type="text" name="correo" id="correo" placeholder="ingrese su Correo">
+    <header>
+        <nav>
+            <div class=into>
+                <div class="intro">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="">Tipos de Cubos</a></li>
+                    <li><a href="../paginas/videos.html">Videos</a></li>
+                    <li><a href="./formu.html">contacto</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="for">
+        <form action="#" onsubmit="return enviar()" method="get" id="formu">
+            <input class="control" type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+            <input class="control" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
+            <input class="control" type="text" name="correo" id="correo" placeholder="ingrese su Correo">
+            <label for="radio" name="radio">¿has visto el fallo en esta pagina?</label>
+            <input type="radio" name="radio" id="radio">si
+            <input type="radio" name="radio" id="radio">no
+        </form>
+
     </section>
+    <script src="../java.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

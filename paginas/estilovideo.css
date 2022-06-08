@@ -1,5 +1,5 @@
 body {
-    background-image: url("/imagenes/fondo.jpg");
+    background-image: url(../imagenes/SodaPDF-converted-fondo.png);
 
 }
 .intro {
@@ -16,3 +16,4 @@ body {
     float: left;
 
 }
+
