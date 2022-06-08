@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cubo Land</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>CuboLand</title>
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+
+    <header>
+
+        <ul>
+            <div class=into>
+                <div class="intro">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Tipos de Cubos</a></li>
+                    <li><a href="paginas/videos.html">Videos</a></li>
+                    <li><a href="formulario/formu.html">contacto</a></li>
+                </div>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <div class="titulo">
+            <h2>bienvenido a CuboLand </h2>
+            <h2>El uso de esta pagina es para enseñar a armar el cubo de rubik</h2>
+
+        </div>
+
+        <div class="Cubo3x3">
+            <img src="/imagenes/3x3.png" width="200px">
+        </div>
+
+        <div class="historia">
+            <h1>¿Que es un Cubo de Rubik?</h1>
+            <h2>El Cubo de Rubik es un rompecabezas mecánico tridimensional creado por el escultor y profesor de
+                arquitectura húngaro Ernő Rubik en 1974. Originalmente llamado «cubo mágico», el rompecabezas fue
+                licenciado por Rubik para ser vendido por Ideal Toy Company en 1980, año en el cual ganó el premio
+                alemán a Mejor Juego del Año en la categoría de mejor rompecabezas.
+                Hasta enero de 2009 se vendieron 350 millones de cubos en todo el mundo, convirtiéndolo
+                no solo en el rompecabezas más vendido, sino que es considerado, en general, el juguete más vendido del
+                mundo.</h2>
+        </div>
+
+        <div class="Cubos">
+            <h1> ¿Hay muchos cubos o uno solo?</h1>
+            <h2>Si hay muchas variaciones de cubos de rubik esta el mas comun ques es el 3x3 hasta el 22x22
+                tambien hay cubos de distintas formas(Cubicos,Cuboides y Mix)
+            </h2>
+        </div>
+        <div class="Tiempo">
+            <h1>Competecias </h1>
+            <h2>las competecias de velocidad sobre los cubos son increibles, ver como las personas son capaces de
+                resolverlos en segundos
+                el record mundial del 3x3 es 4.22 segundos y del cubo 2x2 es de 0.49 segundos
+            </h2>
+        </div>
+        <div class="contenedor">
+            <div class="botonderecha">
+                <button onclick="Derecha()"role="button" class="fa-regular fa-circle-right"></button>
+            </div>
+
+            <div class="cubo">
+                <img src="/imagenes/1.jpeg" id="carru" name="carru">
+            </div>
+            <div class="botonin">
+                <button onclick=" Izquierda()"role="button" class="fa-regular fa-circle-left"></button>
+            </div>
+
+        </div>
+
+
+
+
+    </main>
+    <footer></footer>
+
+
+
+
+
+    <script src="/java.js"></script>
 </body>
+
 </html>

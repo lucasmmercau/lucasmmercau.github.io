@@ -1,0 +1,14 @@
+body {
+    background-image: url("/imagenes/depositphotos_79791494-stock-illustration-magic-cube-retro-80s-pattern.jpg");
+
+}
+.intro {
+
+    display: flex;
+    gap: 16px;
+
+    align-items: center;
+    background-color: rgba(252, 251, 251, 0.755);
+
+}
+
