@@ -2,6 +2,7 @@ body {
     background-image: url(../imagenes/SodaPDF-converted-fondo.png);
 
 }
+
 .intro {
 
     display: flex;
@@ -11,9 +12,40 @@ body {
     background-color: rgba(252, 251, 251, 0.755);
 
 }
-.primer{
-    background-color: rgba(252, 251, 251, 0.755);
-    float: left;
 
+.primer {
+    background-color: rgba(252, 251, 251, 0.755);
 }
 
+.contenedor .botonin,
+.contenedor .botonderecha {
+
+    font: size 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+
+.contenedor .botonin {
+    left: 0;
+    top: calc(50%);
+}
+
+.contenedor .botonderecha {
+    right: 0;
+    top: calc(50%)
+}

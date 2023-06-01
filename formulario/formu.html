@@ -2,7 +2,6 @@
 
 <head>
     <link rel="stylesheet" href="./formulario.css">
-    <title> formulario </title>
 </head>
 
 <body>
@@ -11,25 +10,53 @@
             <div class=into>
                 <div class="intro">
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="">Tipos de Cubos</a></li>
                     <li><a href="../paginas/videos.html">Videos</a></li>
                     <li><a href="./formu.html">contacto</a></li>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="for">
-        <form action="#" onsubmit="return enviar()" method="get" id="formu">
-            <input class="control" type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
-            <input class="control" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
-            <input class="control" type="text" name="correo" id="correo" placeholder="ingrese su Correo">
-            <label for="radio" name="radio">¿has visto el fallo en esta pagina?</label>
-            <input type="radio" name="radio" id="radio">si
-            <input type="radio" name="radio" id="radio">no
-        </form>
 
-    </section>
-    <script src="../java.js"></script>
+    <form onsubmit="return  enviar(event)" name="form" id="form">
+
+
+        <div class="form">
+
+            <h2> Formulario </h2>
+
+            <label> Nombre </label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label> Email </label>
+            <input name="correo" id="correo">
+
+            <label> Mensaje </label>
+            <input type="text" name="mensaje" id="mensaje">
+
+            <button id="boton"> Enviar </button>
+
+            <ul id="listaError">
+            </ul>
+        </div>
+    </form>
+
+    
+    <div id="demo">
+
+        </section>
+        <div class="redes">
+            <h3>Mis Redes Sociales </h3>
+
+        </div>
+        <div class="info">
+            <a href="https://www.instagram.com/lucass.mercau/">Mi instagram</a>
+        </div>
+        <div class="info2">
+            <a href="https://www.instagram.com/speedcube.vm/">Instragan de Speedcubevm</a>
+        </div>
+
+        <script src="../java.js"></script>
+    </div>
 </body>
 
 </html>
