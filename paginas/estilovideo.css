@@ -15,20 +15,39 @@ body {
 
 .primer {
     background-color: rgba(252, 251, 251, 0.755);
+    
+    
+    
 }
 
-.contenedor .botonin,
-.contenedor .botonderecha {
+.primer a{
+    color: black;
+}  
 
-    font: size 30px;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    background-color: red;
-    text-align: center;
-    font-weight: bold;
-    position: absolute;
-    color: #fff;
+.carrusel{
+    width: 1400px;
+    display: center;
+
+}
+.texto_c{
+    background-color: rgba(252, 251, 251, 0.755);
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+i img{
+    width: 80%;
+    height: 70px ;
+
+}
+.botonin{
+    height:100px ;
+    width: 10%;
+}
+.botonderecha{
+    height:100px ;
+    width: 10%;
 }
 
 .contenedor {
@@ -38,14 +57,5 @@ body {
     width: 100%;
     position: relative;
     height: 200px;
-}
-
-.contenedor .botonin {
-    left: 0;
-    top: calc(50%);
-}
-
-.contenedor .botonderecha {
-    right: 0;
-    top: calc(50%)
+    margin:auto;
 }

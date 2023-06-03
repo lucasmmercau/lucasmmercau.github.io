@@ -1,10 +1,14 @@
 console.log("scrip cargada")
 
 var imagen = [];
-imagen[0] = "./imagenes"
-imagen[1] = "./imagenes/2.jpeg"
-imagen[2] = "./imagenes/3.png"
-imagen[3] = "./imagenes/4.jpg"
+imagen[0] = "/imagenes/3x3.png"
+imagen[1] = "/fotos/1.jpeg"
+imagen[2] = "/fotos/3.jpeg"
+imagen[3] = "/fotos/4.jpeg"
+imagen[4] = "/fotos/5.jpeg"
+imagen[5] = "/fotos/6.jpeg"
+
+
 var i = 0;
 var carruimg = document.getElementById("carru")
 
@@ -15,7 +19,6 @@ function Izquierda() {
         carruimg.src = imagen[i];
 
     } else {
-
         i = imagen.length - 1;
         carruimg.src = imagen[i];
     }
@@ -37,13 +40,12 @@ function ver(e) {
 function enviar(e) {
     if (validar()) {
         let nombre = document.getElementById("nombre");
-        let edad = document.querySelector("#edad");
         let correo = document.form.correo;
         let mensaje = document.getElementById("mensaje");
         let errores = [];
         let inputs = document.querySelectorAll("input");
         let p = document.createElement("p");
-        p.innerHTML = `${nombre.value}, de ${edad.value} años de edad, se suscribio con el email (${correo.value}).`;
+        p.innerHTML = `${nombre.value},se registro con el email (${correo.value}).`;
         p.innerHTML += ` a dejado tambien el siguiente mensaje ${mensaje.value}.`;
         document.getElementById("demo").appendChild(p);
         form.reset();
